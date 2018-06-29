@@ -3,7 +3,7 @@ import defaultOptions from './config';
 
 let lastState = {};
 
-export default function autoLogger(opts = {}) {
+export default function (opts = {}) {
   const { key, keyPrefix, blacklist, whitelist, storage } = { ...defaultOptions, ...opts};
   const defaultState = storage.get(`${keyPrefix}:${key}`);
   return createStore => (reducer, initialState = defaultState, enhancer) => {

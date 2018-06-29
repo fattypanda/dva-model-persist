@@ -1,8 +1,32 @@
 {
   "name": "dva-model-persist",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "author": "fattypanda <1076659852@qq.com>",
+  "license": "MIT",
+  "files": [
+    "lib/*"
+  ],
+  "keywords": [
+    "dva",
+    "dva-model",
+    "redux-persist",
+    "dva-model-persist",
+    "dva-redux-persist",
+    "storage",
+    "localStorage",
+    "sissionStorage"
+  ],
+  "homepage": "https://github.com/fattypanda/dva-model-persist",
+  "repository": {
+    "url": "https://github.com/fattypanda/dva-model-persist",
+    "type": "git"
+  },
+  "bugs": "https://github.com/fattypanda/dva-model-persist/issues",
   "scripts": {
     "start": "roadhog server",
     "build": "roadhog build",
+    "build:lib": "babel src/utils/dva-model-persist --out-dir lib --source-maps",
     "lint": "eslint --ext .js src test",
     "precommit": "npm run lint"
   },
@@ -15,6 +39,15 @@
   "devDependencies": {
     "dva": "^2.1.0",
     "babel-plugin-dva-hmr": "^0.3.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-import": "^1.7.0",
+    "babel-plugin-istanbul": "^4.1.6",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
     "eslint": "^4.14.0",
     "eslint-config-umi": "^0.1.1",
     "eslint-plugin-flowtype": "^2.34.1",

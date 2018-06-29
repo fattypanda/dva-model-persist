@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/utils/dva-model-persist/index.js"],"names":["persistEnhancer"],"mappings":";;;;;;;AAAA;;;;;;QAGEA,e,GAAAA,kB","file":"index.js","sourcesContent":["import persistEnhancer from './enhancer';\n\nexport {\n  persistEnhancer,\n}\n"]}

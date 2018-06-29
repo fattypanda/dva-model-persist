@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/utils/dva-model-persist/storage/index.js"],"names":[],"mappings":";;;;;;AAAA;;;;;;kBAEe,gCAAiB,OAAjB,C","file":"index.js","sourcesContent":["import createWebStorage from './createWebStorage';\n\nexport default createWebStorage('local');\n"]}
