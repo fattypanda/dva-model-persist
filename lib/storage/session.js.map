@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/utils/dva-model-persist/storage/session.js"],"names":[],"mappings":";;;;;;AAAA;;;;;;kBAEe,gCAAiB,SAAjB,C","file":"session.js","sourcesContent":["import createWebStorage from './createWebStorage';\n\nexport default createWebStorage('session');\n"]}
